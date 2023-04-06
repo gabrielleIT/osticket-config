@@ -6,6 +6,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
+
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -16,77 +17,67 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Configuration Steps</h2>
+<h2>Post-Install Configuration Objectives</h2>
 
-Configure Roles
-  - Admin Panel -> Agents -> Roles
-  - Supreme Admin
 
 <p>
-<img src="https://i.imgur.com/BmgJh4a.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/AV2tXJz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7TNLhUZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure Departments
-  - Admin Panel -> Agents -> Departments
-  - System Administrators
+</p>
+<p>
+Configure Roles.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/okRF9jy.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/zrrZXQb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure Teams
-  - Admin Panel -> Agents -> Teams\
-    - Level I Support
-    - Level II Support
+<p>
+Configure Departments.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/rHvZ1uN.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/eqXye3F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Allow anyone to create tickets
-  - Admin Panel -> Settings -> User Settings
-  - Registration Required: Require registration and login to create tickets (leave unchecked) 
+<p>
+Configure Teams.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/CeYalJI.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/NtLRQOX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure Agents (workers)
-  - Admin Panel -> Agents -> Add New
-    - Jane
-    - John
+<p>
+Configure Agents.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/IqTEZIw.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/t9wyGkf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure Users (customers)
-  - Agent Panel -> Users -> Add New
-      - Karen
-      - Ken
+<p>
+Configure Users.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/gFAmlC1.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/zodZr2w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure SLA
-  - Admin Panel -> Manage -> SLA
-     -  Sev-A (1 hour, 24/7)
-     -  Sev-B (4 hours, 24/7)
-     -  Sev-C (8 hours, business hours)
+<img src="https://i.imgur.com/bdYYyMM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Configure SLA Agreements.
+</p>
+<br />
 
 <p>
-<img src="https://i.imgur.com/uunBXn8.png" height="80%" width="80%" alt="X"/>
+<img src="https://i.imgur.com/cKkjAsD.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
-Configure Help Topics
-  - Admin Panel -> Manage -> Help Topics
-    - Business Critical Outage
-    - Personal Computer Issues
-    - Equipment Request
-    - Password Reset
-
+<img src="https://i.imgur.com/JlW5du6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
-<img src="https://i.imgur.com/GBrmNUp.png" height="80%" width="80%" alt="X"/>
+Configure Help Topics.
 </p>
-
+<br />
